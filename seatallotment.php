@@ -13,12 +13,12 @@
 
     <link rel="icon" href="public/images/fav.png" type="image/x-icon" />
     <title>Seat Allotment</title>
-    <?php include "main_link_css.php";?>
+    <?php include "main_link_css.php"; ?>
 </head>
 
 <body>
 
-    <?php include "subpage-header.php";?>
+    <?php include "subpage-header.php"; ?>
 
     <!-- Seat Allotment Conent Begins -->
     <section class="seat-allotment-sec">
@@ -33,22 +33,20 @@
 
     <section class="seat-allotment-content">
         <div class="container">
-            <div class="wrapper">
-                <div class="b1">
-                    <h2>Coming Soon...</h2>
-             
-                </div>
-                <div class="b2">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <img src="public/images/floor-paln.jpg" class="img-fluid">
 
 
                 </div>
+            
             </div>
         </div>
     </section>
     <!-- Seat Allotment Conent Ends -->
 
-    <?php include "footer.php";?>
-    <?php include "main_link_js.php";?>
+    <?php include "footer.php"; ?>
+    <?php include "main_link_js.php"; ?>
 
 
 </body>

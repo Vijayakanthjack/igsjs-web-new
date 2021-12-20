@@ -75,36 +75,36 @@
                         <p>TRADE PUBLICATIONS & SERVICES</p>
 
                     </div>
-                    </div>
                 </div>
+            </div>
 
 
-                <div class="row mt-5">
-                    <div class="col-12 col-md-12 text-center">
-                        <button type="button" class="btn btn-danger btn-md" onclick="location.href='register-to-visit.php'">Visitor Registration</button>
-                    </div>
-
+            <div class="row mt-5">
+                <div class="col-12 col-md-12 text-center">
+                    <button type="button" class="btn btn-danger btn-md" onclick="location.href='exhibitor-registration-page.php'">Exhibitor Registration</button>
                 </div>
-
 
             </div>
-            <div class="back-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-
-                            <div class="wrap-row">
-                                <div><img src="public/images/i00091.png" alt="Logo" class="img-fluid"></div>
-                                <div><img src="public/images/i00092.png" alt="Logo" class="img-fluid"></div>
-                                <div><img src="public/images/i00093.png" alt="Logo" class="img-fluid"></div>
-                                <div><img src="public/images/i00095.png" alt="Logo" class="img-fluid"></div>
-                            </div>
 
 
+        </div>
+        <div class="back-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="wrap-row">
+                            <div><img src="public/images/i00091.png" alt="Logo" class="img-fluid"></div>
+                            <div><img src="public/images/i00092.png" alt="Logo" class="img-fluid"></div>
+                            <div><img src="public/images/i00093.png" alt="Logo" class="img-fluid"></div>
+                            <div><img src="public/images/i00095.png" alt="Logo" class="img-fluid"></div>
                         </div>
+
+
                     </div>
                 </div>
             </div>
+        </div>
 
     </section>
 

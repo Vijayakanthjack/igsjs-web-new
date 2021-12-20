@@ -6,7 +6,7 @@
                  <ul>
 
                      <li><i class="fa fa-map-marker"></i>185, Shri Gopal Nagar, Jaipur - 302019</li>
-                     <li><i class="fa fa-phone"></i>879 223 3936 <br /> 930 488 6979 <br /> 930 001 0120</li>
+                     <li><i class="fa fa-phone"></i>879 223 3936 <br /> 917 900 6002<br /> 946 167 3948</li>
                      <li><i class="fa fa-envelope"></i><a href="mailto:bhartiyaswarnkarsangh@gmail.com">bhartiyaswarnkarsangh@gmail.com</a></li>
                  </ul>
              </div>
@@ -43,7 +43,8 @@
          <div class="container">
              <div class="wrapper-in">
                  <div class="bb1">
-                     <p> &copy; 2021 <a href="#">IGSJS, </a> All Right Reserved</p>
+                     <a href="exhibitor-admin-login.php"> <i class="fa fa-university" aria-hidden="true"></i> Exhibitor Login</a>
+                     <p> &copy; <?php echo date("Y"); ?> <a href="index.php">IGSJS, </a> All Right Reserved</p><a href="visitor-admin-login.php"> <i class="fa fa-eye" aria-hidden="true"></i> Visitor Login</a>
                  </div>
              </div>
          </div>

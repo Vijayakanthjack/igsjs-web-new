@@ -57,21 +57,22 @@
                             </div>
                             <div class="b2">
                                 <h3>RENOWNED JEWELLERY MANUFACTURERS AND WHOLESALERS</h3>
-                                <p>OVER 1200 STALLS</p>
+                                <p>OVER 600 STALLS</p>
                             </div>
                             <div class="b3">
-                                <h3>VISITORS FROM ACROSS INDIA</h3>
-                                <p>OVER 20,000 EXPECTED</p>
+                                <h3>VISITORS FROM ACROSS THE GLOBE</h3>
+                                <p>OVER 2000 EXPECTED</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="card mt-5 card-two">
+
+                <div class="col-md-5  col-12">
+                    <div class="card card-two">
                         <div class="card-header">PARTICIPATION CHARGES</div>
                         <div class="card-body">
                             <ul class="list-group">
@@ -87,6 +88,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-7 col-12 p-md-0 mt-3 mt-md-0">
+                    <img src="public/images/rbg002.jpg" alt="Logo" class="img-fluid">
+                </div>
+
+
             </div>
         </div>
         <!-- Button style Html -->

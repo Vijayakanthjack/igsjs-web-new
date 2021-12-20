@@ -6,7 +6,7 @@
 <script src="public/js/wow.min.js"></script>
 <script src="public/js/prism.js"></script>
 <script src="public/js/numscroller-1.0.js"></script>
-<script src="/public/js/bsnav.min.js"></script>
+<!-- <script src="/public/js/bsnav.min.js"></script> -->
 
 <script>
     $(".hovermenu").click(function(e) {

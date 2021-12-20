@@ -26,7 +26,7 @@
             <div class="wrapper">
                 <div>
                     <h2>Fact Sheet</h2>
-                    <p>Few facts and figures of Gem & INTERNATIONAL GOLD SMITH JEWELLERY SHOW (IGSJS)
+                    <p>Few facts and figures of GOLD SMITH JEWELLERY SHOW (IGSJS)
                         By the industry… for the industry….</p>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                         <div class="b1">
 
                             <h2>Address:</h2>
-                            <p>10th Mile, Tumkur Main Road ,<br /> Madavara Post Dasanapura, Hobli,<br /> Bengaluru, Karnataka 562123</p>
+                            <p>Gayatri Vihar Sagar, Gate No.4, Palace Grounds, Near Mekhri Circle, Bengaluru, Karnataka 560080</p>
 
                         </div>
                         <div class="b2">
@@ -60,7 +60,7 @@
                         </div>
                         <div class="b3">
                             <h2>VENUE</h2>
-                            <p>Bengaluru International Exhibition Centre (BIEC)</p>
+                            <p>Gayatri Vihar Sagar, Gate No.4, Palace Grounds</p>
                         </div>
 
                     </div>
@@ -83,7 +83,7 @@
                             </ul>
                             <p class="text-danger">OR</p>
                             <ul>
-                                <li>Online registration ID</li>
+                                <li>Online registration with Rs 500 /- Visitor</li>
                                 <li>Valid address ID proof</li>
                             </ul>
 
@@ -110,13 +110,13 @@
                         <div class="wrap-row">
                             <div>
                                 <div class="img-in">
-                                    <img src="public/images/exbimgs/bangles.jpg" class="img-fluid" />
+                                    <img src="public/images/exbimgs/Bangles.jpg" class="img-fluid" />
                                     <h4> Plain Gold Jewellery</h4>
                                 </div>
                             </div>
                             <div>
                                 <div class="img-in">
-                                    <img src="public/images/exbimgs/anklet.jpg" class="img-fluid" />
+                                    <img src="public/images/exbimgs/Anklet.jpg" class="img-fluid" />
                                     <h4>Anklet</h4>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@
                             </div>
                             <div>
                                 <div class="img-in">
-                                    <img src="public/images/exbimgs/earrings.jpg" class="img-fluid" />
+                                    <img src="public/images/exbimgs/Earrings.jpg" class="img-fluid" />
                                     <h4> Earrings</h4>
                                 </div>
                             </div>

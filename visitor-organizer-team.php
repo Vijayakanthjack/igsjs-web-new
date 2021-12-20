@@ -37,7 +37,7 @@
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Prakashji Soni</h4>
+                            <h4>Prakash Soni</h4>
                             <p>President</p>
                             <p>IGSJS</p>
                         </div>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Chanchalji Soni</h4>
+                            <h4>Chanchal Soni</h4>
                             <p>Joint President </p>
                             <p>IGSJS</p>
                         </div>
@@ -69,7 +69,7 @@
                 </div>
                 <div>
                     <div class="card-in">
-                        <img src="public/images/c00011.jpg" class="img-fluid" />
+                        <img src="public/images/Santosh-kadel.jpg" class="img-fluid" />
                     </div>
                     <div class="content-in">
                         <div>
@@ -81,11 +81,11 @@
                 </div>
                 <div>
                     <div class="card-in">
-                        <img src="public/images/c00011.jpg" class="img-fluid" />
+                        <img src="public/images/Rajesh-thawde.jpg" class="img-fluid" />
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Thawadeji</h4>
+                            <h4>Thawde</h4>
                             <p>Joint Secretary Finance</p>
                             <p>IGSJS</p>
                         </div>
@@ -93,11 +93,11 @@
                 </div>
                 <div>
                     <div class="card-in">
-                        <img src="public/images/c00011.jpg" class="img-fluid" />
+                        <img src="public/images/Rajesh-soni.jpg" class="img-fluid" />
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Rajeshji Soni</h4>
+                            <h4>Rajesh Bhola</h4>
                             <p>Visitor Coordinator</p>
                             <p>IGSJS</p>
                         </div>
@@ -105,11 +105,11 @@
                 </div>
                 <div>
                     <div class="card-in">
-                        <img src="public/images/c0001.jpg" class="img-fluid" />
+                        <img src="public/images/Chaitanya-soni.jpg" class="img-fluid" />
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Chaitanyaji Soni</h4>
+                            <h4>Chaitanya Soni</h4>
                             <p>Media Coordinator </p>
                             <p>IGSJS</p>
                         </div>
@@ -117,11 +117,11 @@
                 </div>
                 <div>
                     <div class="card-in">
-                        <img src="public/images/c00011.jpg" class="img-fluid" />
+                        <img src="public/images/Milind-Pawar.jpg" class="img-fluid" />
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Milindji Soni</h4>
+                            <h4>Milind Pawar </h4>
                             <p>Joint Media Coordinator</p>
                             <p>IGSJS</p>
                         </div>
@@ -129,11 +129,11 @@
                 </div>
                 <div>
                     <div class="card-in">
-                        <img src="public/images/c00011.jpg" class="img-fluid" />
+                        <img src="public/images/Shiva-Soni.jpg" class="img-fluid" />
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Shivaji Soni</h4>
+                            <h4>Shiva Soni</h4>
                             <p>Exhibitor Coordinator</p>
                             <p>IGSJS</p>
                         </div>
@@ -141,7 +141,7 @@
                 </div>
                 <div>
                     <div class="card-in">
-                        <img src="public/images/c00011.jpg" class="img-fluid" />
+                        <img src="public/images/Manoj-Varma.jpg" class="img-fluid" />
                     </div>
                     <div class="content-in">
                         <div>
@@ -157,7 +157,7 @@
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Ramsh Soni Kokoda</h4>
+                            <h4>Ramesh soni kukra</h4>
                             <p>Escalation</p>
                             </p>
                             <p>IGSJS</p>
@@ -166,59 +166,37 @@
                 </div>
                 <div>
                     <div class="card-in">
-                        <img src="public/images/c00011.jpg" class="img-fluid" />
+                        <img src="public/images/Deepak-soliwal.jpg" class="img-fluid" />
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Deepakji Soliwal</h4>
+                            <h4>Deepak Soliwal</h4>
                             <p>Escalation</p>
                             <p>IGSJS</p>
                         </div>
                     </div>
                 </div>
+
                 <div>
                     <div class="card-in">
-                        <img src="public/images/c00011.jpg" class="img-fluid" />
+                        <img src="public/images/Dayaram-Soni.jpg" class="img-fluid" />
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Santhosh Kadel</h4>
+                            <h4>Dayaram Soni</h4>
                             <p>Maintanance Coordinator</p>
                             <p>IGSJS</p>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="card-in">
-                        <img src="public/images/c00011.jpg" class="img-fluid" />
-                    </div>
-                    <div class="content-in">
-                        <div>
-                            <h4>Dayaramji Soni</h4>
-                            <p>Maintanance Coordinator</p>
-                            <p>IGSJS</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card-in">
-                        <img src="public/images/c0004.jpg" class="img-fluid" />
-                    </div>
-                    <div class="content-in">
-                        <div>
-                            <h4>Subhankar Chaparawal</h4>
-                            <p>POC </p>
-                            <p>IGSJS</p>
-                        </div>
-                    </div>
-                </div>
+
                 <div>
                     <div class="card-in">
                         <img src="public/images/c0007.jpg" class="img-fluid" />
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Dhuli Chand Kadel</h4>
+                            <h4>Dhuli Chand</h4>
                             <p>POC</p>
                             <p>IGSJS</p>
                         </div>
@@ -228,16 +206,47 @@
 
                 <div>
                     <div class="card-in">
-                        <img src="public/images/c00011.jpg" class="img-fluid" />
+                        <img src="public/images/Shubhankar-soni.jpg" class="img-fluid" />
                     </div>
                     <div class="content-in">
                         <div>
-                            <h4>Shubhankarji Soni</h4>
+                            <h4>Shubhankar Soni</h4>
                             <p>POC</p>
                             <p>IGSJS</p>
                         </div>
                     </div>
                 </div>
+
+
+                <div>
+                    <div class="card-in">
+                        <img src="public/images/Dharmendra-kadel.jpg" class="img-fluid" />
+                    </div>
+                    <div class="content-in">
+                        <div>
+                            <h4>Dharmendra kadel</h4>
+                            <!-- <p>POC</p> -->
+                            <p>IGSJS</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div>
+                    <div class="card-in">
+                        <img src="public/images/Ghamandiram-Soni.jpg" class="img-fluid" />
+                    </div>
+                    <div class="content-in">
+                        <div>
+                            <h4>Ghamandiram Soni</h4>
+                            <!-- <p>POC</p> -->
+                            <p>IGSJS</p>
+                        </div>
+                    </div>
+                </div>
+
+
 
             </div>
 

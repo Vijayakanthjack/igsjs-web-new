@@ -67,7 +67,7 @@
                                         <div class="card-body">
                                             <ul>
                                                 <li>Bare space of 48 sqm</li>
-                                                <li>Sponsor’s logo will be positioned as “powered by” below GJIIF logo
+                                                <li>Sponsor’s logo will be positioned as “powered by” below IGSJS logo
                                                 </li>
                                                 <li>Inner front full page colour ad in show directory</li>
                                                 <li>Listing company profile (2 pages) in event show directory</li>

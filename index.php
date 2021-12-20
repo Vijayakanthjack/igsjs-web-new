@@ -16,8 +16,11 @@
 </head>
 
 <body>
+
     <div id="main">
+
         <?php include "header.php"; ?>
+
 
         <section class="slider-sec">
             <div id="homeCarousel" class="carousel slide" data-ride="carousel">
@@ -25,9 +28,19 @@
                     <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#homeCarousel" data-slide-to="1"></li>
                     <li data-target="#homeCarousel" data-slide-to="2"></li>
+                    <li data-target="#homeCarousel" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <img src="public/images/slider005.jpg" class="img-fluid" alt="...">
+                        <!-- <div class="carousel-caption">
+                        <h3>WELCOME TO</h3>
+                        <h1>INTERNATIONAL GOLD SMITH <br /><span>JEWELLERY SHOW</span></h1>
+                        <button class="btn btn-warning visit-now">Visit Now</button>
+                    </div> -->
+                    </div>
+
+                    <div class="carousel-item">
                         <img src="public/images/slider001.jpg" class="img-fluid" alt="...">
                         <!-- <div class="carousel-caption">
                         <h3>WELCOME TO</h3>
@@ -35,6 +48,8 @@
                         <button class="btn btn-warning visit-now">Visit Now</button>
                     </div> -->
                     </div>
+
+
                     <div class="carousel-item">
                         <img src="public/images/slider002.jpg" class="img-fluid" alt="...">
                         <!-- <div class="carousel-caption">
@@ -74,28 +89,38 @@
         <section class="four-box-sec">
             <div class="container">
                 <div class="wrapper">
+
                     <div class="b1">
-                        <div class="img-in"><img src="public/images/calendar.png" class="img-fluid"></div>
-                        <h1>EXPO DATES</h1>
-                        <p><strong>4<sup>th</sup> to 7<sup>th</sup> FEB <span class='numscroller' data-min='100' data-max='2022' data-delay='5' data-increment='100   '>2022</span></strong>
-                            Bangalore BIEC
-                        </p>
+                        <div class="b-in">
+                            <div class="img-in"><img src="public/images/calendar01.png" class="img-fluid"></div>
+                            <h1>EXPO DATES</h1>
+                            <p><strong>4<sup>th</sup> to 7<sup>th</sup> FEB <span class='numscroller' data-min='100' data-max='2022' data-delay='5' data-increment='100   '>2022</span></strong>
+                                Bangalore Palace Ground Bangalore
+                            </p>
+                        </div>
                     </div>
                     <div class="b2">
-                        <div class="img-in"><img src="public/images/sq.png" class="img-fluid"></div>
-                        <h1>OVER <span class='numscroller' data-min='50' data-max='200000' data-delay='5' data-increment='1000'>2,00,000</span>+ SQ.FT</h1>
-                        <p>Exhibition area spread over BIEC</p>
+                        <div class="b-in">
+                            <div class="img-in"><img src="public/images/sqfrt01.png" class="img-fluid"></div>
+                            <h1>OVER <span class='numscroller' data-min='50' data-max='10000' data-delay='5' data-increment='1000'>10,000</span>+ SQ.FT</h1>
+                            <p>Exhibition area spread over Palace Ground Bangalore</p>
+                        </div>
                     </div>
                     <div class="b3">
-                        <div class="img-in"><img src="public/images/stall.png" class="img-fluid"></div>
-                        <h1>OVER <span class='numscroller' data-min='50' data-max='600' data-delay='5' data-increment='5'>600</span>+ EXHIBITORS</h1>
-                        <p>Renowned jewellery manufacturers and wholesalers from across India under one roof in over 1200
-                            stalls.</p>
+                        <div class="b-in">
+                            <div class="img-in"><img src="public/images/exhbition01.png" class="img-fluid"></div>
+                            <h1>OVER <span class='numscroller' data-min='50' data-max='600' data-delay='5' data-increment='5'>600</span>+ EXHIBITORS</h1>
+                            <p>Renowned jewellery manufacturers and wholesalers from across India under one roof in over 1200
+                                stalls.</p>
+                        </div>
                     </div>
+
                     <div class="b4">
-                        <div class="img-in"><img src="public/images/Visitors.png" class="img-fluid"></div>
-                        <h1>OVER <span class='numscroller' data-min='50' data-max='20000' data-delay='5' data-increment='1000'>20,000</span>+</h1>
-                        <p>Trade Visitors attended the 3-day exhibition from over 18 states across India.</p>
+                        <div class="b-in">
+                            <div class="img-in"><img src="public/images/chart.png" class="img-fluid"></div>
+                            <h1>OVER <span class='numscroller' data-min='50' data-max='20000' data-delay='5' data-increment='1000'>20,000</span>+</h1>
+                            <p>Trade Visitors attend the 4-day of exhibition from over 21 states across India and 7 countries.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -112,13 +137,15 @@
                     </div>
                     <div class="b2">
                         <h2>ABOUT IGSJS</h2>
-                        <h4>The INTERNATIONAL GOLD SMITH JEWELLERY SHOW (IGSJS) is a mega one-stop jewellery sourcing B2B
-                            trade show organized during 4<sup>th</sup> to 7<sup>th</sup> FEB 2022 at Bangalore in BIES
-                            India.</h4>
-                        <p>IGSJS 2022 platform will provide the domestic and the global gem and jewellery sector an
-                            excellent business opportunity to explore various jewellery styles from across India
-                            multi-faceted aspects of the Industry.</p>
-                        <a class="btn btn-primary btn-md read-more" onclick="location.href='aboutus.php'">Read More </a>
+                        <div class="abt-content">
+                            <h4>The INTERNATIONAL GOLD SMITH JEWELLERY SHOW (IGSJS) is a mega one-stop jewellery sourcing B2B
+                                trade show organized during 4<sup>th</sup> to 7<sup>th</sup> FEB 2022 at Bangalore in Palace Ground
+                                India.</h4>
+                            <p>IGSJS 2022 platform will provide the domestic and the global gem and jewellery sector an
+                                excellent business opportunity to explore various jewellery styles from across India
+                                multi-faceted aspects of the Industry.</p>
+                            <a class="btn btn-primary btn-md read-more hvr-sweep-to-right" onclick="location.href='aboutus.php'">Read More </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -149,7 +176,7 @@
                     <button class="btn btn-warning visit-now">Visit Now</button>
                 </div>
             </div>
-    </section> -->
+    </section> 
         <!-- Section 3 Begins -->
         <section class="section-three wow fadeInUp" data-wow-duration="2s" data-wow-delay="0s">
             <div class="container">
@@ -250,7 +277,7 @@
         </section>
         <!-- Section 5 Ends -->
         <!-- Section 6 Begins -->
-        <section class="section-three wow fadeInUp" data-wow-duration="2s" data-wow-delay="0s">
+        <section class="sponsors-sec wow fadeInUp" data-wow-duration="2s" data-wow-delay="0s">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-12">

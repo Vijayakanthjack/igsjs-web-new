@@ -181,7 +181,7 @@
                                     14
                                 </div>
                                 <div class="b2">
-                                    <p>Carrying of bullion or bulk jewellery or cash more than Rupees One Lakh STRICTLY NOT ALLOWED.</p>
+                                    <p>Carrying of bullion or bulk jewellery or cash more than Rupees One Lakh STRICTLY NOT ALLOWED. <span  class="text-danger">(Please contact the organizer)</span></p>
                                 </div>
                             </div>
                         </li>

@@ -10,13 +10,14 @@ if (isset($_POST['submit'])) {
     $id_card_no = $_POST['id_card_no'];
     $status = $_POST['status'];
     $booths = $_POST['booths'];
-    
+
     $sql = "insert into `exhibitor` (name,email,contact,company_name,city,id_card_type,id_card_no,status,booths) values('$name','$email','$contact','$company_name','$city','$id_card_type','$id_card_no','$status','$booths')";
     $result = mysqli_query($conn, $sql);
     if ($result) {
-        echo "Congratulation Your Data Sucessfully Updated!";
-        //header('location:display.php');
+        //echo "Congratulation Your Data Sucessfully Updated!";
+        header('location:thankyou.php');
         //echo '<script>alert("Congratulation Your Data Sucessfully Submitted");</script>';
+        //echo '<script>window.location.href="thankyou.php";</script>';
     } else {
         die(mysqli_error($conn));
     }
@@ -53,6 +54,8 @@ if (isset($_POST['submit'])) {
     <section class="seat-allotment-sec">
         <div class="container">
             <div class="wrapper">
+
+
                 <div class="col-12 col-md-12 p-0">
                     <h2>Exhibitor Registration</h2>
                 </div>
@@ -64,6 +67,9 @@ if (isset($_POST['submit'])) {
         <div class="container">
             <div class="row">
 
+                <div class="col-12 col-md-12">
+                    <h1>Please fill the form and submit, We will get back to you soon</h1>
+                </div>
                 <div class="col-12 col-md-12">
 
                     <form method="POST" enctype="multipart/form-data">
@@ -82,8 +88,8 @@ if (isset($_POST['submit'])) {
                         </div>
 
                         <div class="form-group">
-                            <label>Conatct number: <span>*</span></label>
-                            <input type="text" class="form-control" id="number" name="contact" value="" placeholder="Conatct number" required="">
+                            <label>Contact number: <span>*</span></label>
+                            <input type="text" class="form-control" id="number" name="contact" value="" placeholder="Contact number" required="">
                         </div>
 
                         <div class="form-group">
@@ -133,17 +139,17 @@ if (isset($_POST['submit'])) {
 
                         <div class="form-group">
                             <label for="booths">Booths Need:<span>*</span></label>
-                            <select class="form-control booths" id="booths" name="booths">
+                            <select class="form-control booths" id="booths" data-placement="top" name="booths" data-toggle="popover" title="Call Us Today" data-content="For a Better Price">
                                 <option selected>Choose the Booth</option>
-                                <option value="3 sq.mt">Three SQ.MT. Booth – Rs. 2,25000 / USD 3100</option>
-                                <option value="5 sq.mt">Five SQ.MT. Booth – Rs. 2,50000 / USD 4100</option>
+                                <option value="3 sq.mt">Three SQ.MT. Booth – Rs. 2,25,000 / USD 3100</option>
+                                <option value="5 sq.mt">Five SQ.MT. Booth – Rs. 3,00,000 / USD 4100</option>
 
                             </select>
 
                             <small class="text-danger pull-right">Choose the booth</small>
                         </div>
 
-                        <div class="form-group ">
+                        <div class="form-group d-none">
                             <label>Status:<span></span></label>
                             <input type="text" class="form-control" id="status" disabled value="nil" name="status" placeholder="Status">
 
@@ -171,7 +177,11 @@ if (isset($_POST['submit'])) {
     <?php include "footer.php"; ?>
     <?php include "main_link_js.php"; ?>
 
-
+    <script>
+        $(function() {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
 
 </body>
 

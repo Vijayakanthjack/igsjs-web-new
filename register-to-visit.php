@@ -12,9 +12,10 @@ if (isset($_POST['submit'])) {
     $sql = "insert into `visitor` (name,email,contact,company_name,city,id_card_type,id_card_no,status) values('$name','$email','$contact','$company_name','$city','$id_card_type','$id_card_no','$status')";
     $result = mysqli_query($conn, $sql);
     if ($result) {
-        echo "Congratulation Your Data Saved Sucessfully!";
-        //header('location:display.php');
-        //echo '<script>alert("Congratulation Your Data Sucessfully Submitted");</script>';
+
+        //echo "Congratulation Your Data Saved Sucessfully!";
+        header('location:thankyou.php');
+        //echo '<script>alert("Thank you for sharing your details with us, we will comback to you shortly");</script>';
     } else {
         die(mysqli_error($conn));
     }
@@ -46,9 +47,8 @@ if (isset($_POST['submit'])) {
 			</html>';
     $result = @mail($to, $subject, $message, $headers);
 
-    echo '<script>alert("Email sent successfully !")</script>';
-    echo '<script>window.location.href="index.php";</script>';
-
+    //echo '<script>alert("Email sent successfully !")</script>';
+//echo '<script>window.location.href="thankyou.php";</script>';
 }
 
 
@@ -92,37 +92,35 @@ if (isset($_POST['submit'])) {
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-12">
+                    <h1>Please fill the form and submit, We will get back to you soon</h1>
+                </div>
+                <div class="col-12 col-md-12">
                     <form method="POST" action="" enctype="multipart/form-data">
 
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <input type="text" name="fromEmail" id="fromEmail" class="form-control"
                                 value="info@codingbirdsonline.com" readonly required autofocus>
-                        </div>
+                        </div> -->
                         <div class="form-group">
                             <label>Name: <span>*</span></label>
-                            <input type="text" class="form-control" id="name" name="name" value=""
-                                placeholder="Enter your name" required="">
+                            <input type="text" class="form-control" id="name" name="name" value="" placeholder="Enter your name" required="">
                             <small class="text-danger pull-right">As per your ID Proof</small>
                         </div>
                         <div class="form-group">
                             <label>Email: <span>*</span></label>
-                            <input type="text" class="form-control" id="email" name="email" value=""
-                                placeholder="Email Address" required="">
+                            <input type="text" class="form-control" id="email" name="email" value="" placeholder="Email Address" required="">
                         </div>
                         <div class="form-group">
-                            <label>Conatct number: <span>*</span></label>
-                            <input type="text" class="form-control" id="number" name="contact" value=""
-                                placeholder="Conatct number" required="">
+                            <label>Contact number: <span>*</span></label>
+                            <input type="text" class="form-control" id="number" name="contact" value="" placeholder="Contact number" required="">
                         </div>
                         <div class="form-group">
                             <label>Company name: <span>*</span></label>
-                            <input type="text" class="form-control" id="company_name" name="company_name" value=""
-                                placeholder="Company name" required="">
+                            <input type="text" class="form-control" id="company_name" name="company_name" value="" placeholder="Company name" required="">
                         </div>
                         <div class="form-group">
                             <label>City:<span>*</span></label>
-                            <input type="text" class="form-control" id="city" required="" name="city" value=""
-                                placeholder="City">
+                            <input type="text" class="form-control" id="city" required="" name="city" value="" placeholder="City">
                         </div>
                         <!-- <div class="form-group">
                             <label>ID Proof:<span>*</span></label>
@@ -142,27 +140,23 @@ if (isset($_POST['submit'])) {
                         </div>
                         <div class="form-group card-no">
                             <label>ID Proof No: <span>*</span></label>
-                            <input type="text" class="form-control" id="id_card_no" name="id_card_no" value=""
-                                placeholder="ID Card No" required="">
+                            <input type="text" class="form-control" id="id_card_no" name="id_card_no" value="" placeholder="ID Card No" required="">
                             <small class="text-danger pull-right">Carry the same ID in original</small>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group d-none">
                             <label>Status:<span></span></label>
-                            <input type="text" class="form-control" id="status" disabled value="nil" name="status"
-                                placeholder="Status">
+                            <input type="text" class="form-control" id="status" disabled value="nil" name="status" placeholder="Status">
                         </div>
                         <div class="form-group">
                             <label for="inputPassword">Subject <span style="color: #FF0000">*</span></label>
-                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject"
-                                required>
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword">Message <span style="color: #FF0000">*</span></label>
-                            <textarea id="message" name="message" class="form-control" placeholder="Message"
-                                required></textarea>
+                            <textarea id="message" name="message" class="form-control" placeholder="Message" required></textarea>
                         </div>
                         <div class="form-group text-center">
-                            <button type="submit" name="submit" class="btn btn-danger btn-submit">Submit</button>
+                            <button type="submit" name="submit" class="btn btn-danger btn-submit" >Submit</button>
                             <p id="my-form-status"></p>
                         </div>
                     </form>
@@ -170,7 +164,11 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </section>
+
     <!-- About Us Conent Ends -->
+
+    <!-- Modal -->
+
     <?php include "footer.php"; ?>
     <?php include "main_link_js.php"; ?>
 </body>

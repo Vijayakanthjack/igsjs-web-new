@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <!-- Required meta tags -->
@@ -11,10 +12,12 @@
     <meta name="author" content="Gallery" />
     <link rel="icon" href="public/images/fav.png" type="image/x-icon" />
     <title>Gallery</title>
-    <?php include "main_link_css.php";?>
+    <?php include "main_link_css.php"; ?>
 </head>
+
 <body>
-    <?php include "subpage-header.php";?>
+    <?php include "subpage-header.php"; ?>
+    
     <!-- Gallery Conent Begins -->
     <section class="gallery-sec">
         <div class="container">
@@ -61,7 +64,7 @@
                         <img src="public/images/blog/b005.jpg" class="img-fluid reg-image" alt="top-products01">
                         <img src="public/images/blog/b005.jpg" class="img-fluid hover-image" alt="top-products01">
                     </a>
-                     <h3>Jadau Jewellery</h3>
+                    <h3>Jadau Jewellery</h3>
                 </div>
                 <div>
                     <a href="#">
@@ -84,7 +87,7 @@
                     </a>
                     <h3>Gemstone Jewellery</h3>
                 </div>
-                              <div>
+                <div>
                     <a href="#">
                         <img src="public/images/blog/b012.jpg" class="img-fluid reg-image" alt="...">
                         <img src="public/images/blog/b012.jpg" class="img-fluid hover-image" alt="top-products01">
@@ -96,7 +99,8 @@
         </div>
     </section>
     <!-- About Us Conent Ends -->
-    <?php include "footer.php";?>
-    <?php include "main_link_js.php";?>
+    <?php include "footer.php"; ?>
+    <?php include "main_link_js.php"; ?>
 </body>
+
 </html>

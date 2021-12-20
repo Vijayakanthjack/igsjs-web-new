@@ -38,14 +38,12 @@
             <div class="row">
                 <div class="col-12 col-md-6">
 
-
-
                     <h2>HIGHLIGHTS OF IGSJS</h2>
 
                     <ul>
                         <li>India's No. 1 B2B exhibition for South Indian Jewellery</li>
-                        <li>Over 2,00,000 sq.ft. of exhibition area</li>
-                        <li>Over 1,200 stalls from across India</li>
+                        <li>Over 10,000 sq.ft. of exhibition area</li>
+                        <li>Over 600 stalls from across India</li>
                         <li>Over 20,000 trade visitors expected</li>
                         <li>Over 600+ renowned manufacturers and wholesalers exhibiting
                         </li>
